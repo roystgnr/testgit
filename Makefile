@@ -6,7 +6,7 @@ test.o : test.C test.h
 test2.o : test2.C test2.h
 	g++ -c $<
 
-main.o : main.C test.h
+main.o : main.C test.h test2.h
 	g++ -c $<
 
 test : test.o test2.o main.o
