@@ -3,8 +3,8 @@
 
 int main(void)
 {
-  testfunc1();
-  testfunc2();
+  test_func1();
+  test_func2();
 
   test2func1();
   test2func2();
